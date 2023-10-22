@@ -1,0 +1,65 @@
+body {
+  background-image: url(BG.jpg);
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+}
+input[type="text"] {
+  width: 90%;
+  height: 0px;
+  border-radius: 6px;
+  border: 1px black solid;
+}
+form {
+  max-width: 400px;
+  box-shadow: 0 3px 6px black;
+  margin: 20px auto;
+  margin-top: 10px;
+  padding: 20px;
+  background-color: transparent;
+  color: black;
+  border-radius: 6px;
+  height: 270px;
+}
+form input {
+  background-color: white;
+  margin-bottom: 10px;
+  padding: 10px;
+  top: 30px;
+}
+
+form input[type="submit"] {
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 8px;
+  text-transform: uppercase;
+}
+form input[type="submit"]:hover {
+  background-color: transparent;
+  border: 3px blue solid;
+  color: white;
+}
+h1 {
+  margin: 0;
+}
+p {
+  text-align: left;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+.container {
+  display: flex;
+  gap: 70px;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+.hasil {
+  box-shadow: 0 3px 6px black;
+  border-radius: 6px;
+  text-align: left;
+  width: 350px;
+  padding: 10px;
+}
